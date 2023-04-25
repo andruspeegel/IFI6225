@@ -17,6 +17,7 @@ module.exports = {
       'gray-light': '#d3dce6',
       'black': '#000000',
       'white': '#FFFFFF',
+      'boltgray': '#2f313f',
     },
     extend: {},
   },
