@@ -919,8 +919,18 @@ video {
 }
 
 .hp-container3 {
-  height: 55vh;
+  height: 7vh;
   margin-top: 50px;
+}
+
+.hp-container4 {
+  height: 2vh;
+  margin-top: 20px;
+}
+
+.hp-container5 {
+  height: 3vh;
+  margin-top: 35px;
 }
 
 .hp-container25 {
@@ -934,5 +944,110 @@ video {
     max-width: 1248px;
     padding: 0 24px;
     position: relative;
+}
+
+.large-text[_ngcontent-uwg-c18] {
+  font-family: Euclid Circular B,sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: #2f313f;
+}
+
+.small-text[_ngcontent-uwg-c18] {
+  font-family: Euclid Circular B,sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #818391;
+}
+
+.wallet-image[_ngcontent-uwg-c18] {
+  margin-bottom: -20px;
+}
+
+.container33[_ngcontent-uwg-c18] {
+  height: 55vh;
+  margin-top: 30px;
+}
+.mobile-image[_ngcontent-uwg-c18] {
+  margin-bottom: -25px;
+  width: 6vw;
+}
+
+.container7[_ngcontent-uwg-c21] {
+  width: 100%;
+  height: 40vh;
+  background-color: #2eb875;
+  margin: 0 auto;
+}
+.content[_ngcontent-uwg-c21] {
+  display: flex;
+  flex-direction: column;
+  padding: 10vh 20vw 10vh 20vw;
+  justify-content: center;
+  align-items: center;
+}
+.main-text[_ngcontent-uwg-c21] {
+  font-family: Euclid Circular B,sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #f2f2f2;
+  margin: 0;
+}
+.action-button[_ngcontent-uwg-c21] {
+  margin-top: 45px;
+  margin-bottom: 35px;
+  font-family: Euclid Circular B,sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 5px 20px;
+  border-radius: 22px;
+  box-shadow: 0 8px 17px 2px #00000024,0 3px 14px 2px #0000001f,0 5px 5px -3px #0003;
+}
+.mat-raised-button {
+  cursor: pointer;
+  white-space: nowrap;
+  text-align: center;
+  line-height: 36px;
+}
+.mat-button-ripple.mat-ripple, .mat-button-focus-overlay {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  pointer-events: none;
+  border-radius: inherit;
+}
+.mat-ripple {
+  overflow: hidden;
+}
+.mat-button-ripple.mat-ripple, .mat-button-focus-overlay {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  pointer-events: none;
+  border-radius: inherit;
+}
+.mat-button-focus-overlay {
+  background: #000;
+}
+.sub-text[_ngcontent-uwg-c21] {
+  font-family: Euclid Circular B,sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #f2f2f2;
+  margin: 0;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.mat-raised-button:not([class*="mat-elevation-z"]) {
+  box-shadow: 0 3px 1px -2px #0003,0 2px 2px #00000024,0 1px 5px #0000001f;
+}
+
+.mat-flat-button, .mat-raised-button, .mat-fab, .mat-mini-fab {
+  color: #000000de;
+  background-color: #fff;
 }
 }
